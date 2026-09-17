@@ -1,0 +1,25 @@
+.colum {
+  background-color: var(--bs-info-text-emphasis);
+  color: var(--bs-teal);
+}
+
+.nav-bg {
+  background-color: rgba(0, 0, 0, 0.67);
+  backdrop-filter: blur(10px);    
+}
+.link-color li a {
+  color: var(--bs-white);
+}
+
+.link-color li a .active {
+  color: var(--bs-teal) !important;
+}
+
+.overflow-test{
+  border: 1px solid black;
+  width: 50px;
+  padding: 10px;
+  text-wrap: nowrap;
+  text-overflow: ellipsis; 
+  overflow: hidden;
+}
